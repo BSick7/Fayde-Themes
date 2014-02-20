@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DesignerShimSite", "DesignerShimSite\", "{764ec39c-9007-4be3-95b9-010091dc5c6c}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjOutputReferences = "{ff98726d-6b5e-4465-b194-cc353dc9214d}|ClientBin|false;"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignerShim", "DesignerShim\DesignerShim.csproj", "{ff98726d-6b5e-4465-b194-cc353dc9214d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{764EC39C-9007-4BE3-95B9-010091DC5C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764EC39C-9007-4BE3-95B9-010091DC5C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764EC39C-9007-4BE3-95B9-010091DC5C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764EC39C-9007-4BE3-95B9-010091DC5C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF98726D-6B5E-4465-B194-CC353DC9214D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF98726D-6B5E-4465-B194-CC353DC9214D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF98726D-6B5E-4465-B194-CC353DC9214D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF98726D-6B5E-4465-B194-CC353DC9214D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
