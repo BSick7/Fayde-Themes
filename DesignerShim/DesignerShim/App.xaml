@@ -5,7 +5,8 @@
 	<Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="Fayde.theme.xaml" />
+				<ResourceDictionary Source="Core/Metro.theme.xaml" />
+				<ResourceDictionary Source="Core/Fayde.theme.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
