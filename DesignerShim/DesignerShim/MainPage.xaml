@@ -317,15 +317,26 @@
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
 		<StackPanel>
-			<Button Content="Button" Margin="5" />
+			<Button Margin="5" Content="Button" />
+			<ToggleButton Content="ToggleButton" Margin="5"/>
 			<TextBox Text="TextBox" Margin="5" />
-			<ComboBox Margin="5">
-				<ComboBoxItem Content="Item 1" />
-				<ComboBoxItem Content="Item 2" />
-				<ComboBoxItem Content="Item 3" />
-			</ComboBox>
+			<PasswordBox Margin="5"/>
+			<Slider Margin="5"/>
 		</StackPanel>
 		<StackPanel Grid.Column="1">
+			<ComboBox Height="27" Margin="5">
+				<ComboBoxItem Content="ComboBoxItem1" />
+				<ComboBoxItem Content="ComboBoxItem2" />
+				<ComboBoxItem Content="ComboBoxItem3" />
+			</ComboBox>
+			<ListBox Height="100" Margin="5">
+				<ListBoxItem Content="ListBoxItem1"/>
+				<ListBoxItem Content="ListBoxItem2"/>
+				<ListBoxItem Content="ListBoxItem3"/>
+				<ListBoxItem Content="ListBoxItem4"/>
+			</ListBox>
+		</StackPanel>
+		<StackPanel Grid.Column="2">
 			<sdk:TabControl HorizontalAlignment="Left" VerticalAlignment="Top">
 				<sdk:TabItem Header="TabItem" Style="{StaticResource TabItemStyle1}">
 					<Grid Background="#FFE5E5E5"/>
